@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spill the feels</title>
+
+    <style>
+       @font-face {
+            font-family: 'HSSanTokki20-Regular';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        h3, h2, h1 {
+            font-family: 'HSSanTokki20-Regular';
+        }
+
+        .gnb {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 900px;
+            height: 60px;
+
+            margin: auto;
+        }
+
+        .gnb > img {
+            height: 60px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-top: 60px;     
+            padding-bottom: 60px;   
+        }
+
+
+        .main > h3 {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 1.5;
+            color: #415b6d;
+            margin-bottom: 10px;
+        }
+        
+        .main > h1 {
+            font-size: 46px;
+            font-weight: 800;
+            color: #26343d;
+        }
+
+        hr {
+            border-top: none;
+            border-bottom: 0.5px solid lightgray;
+        }
+
+        .teaser {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+        }
+
+        .teaser > h2 {
+            font-size: 30px;
+            font-weight: 800;
+            color:#ff773c;
+        }
+
+
+        .teaser > img {
+            width: 700px;
+        }
+
+
+
+        .cta {
+            position: fixed;
+            width: 900px;
+            height: 80px;
+            margin: auto;
+            bottom: 20px;
+            left: calc(50% - 450px);
+
+            background-color: white;
+            border-radius: 10px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            box-shadow: 0px 0px 10px 0px lightgray;
+        }
+        .cta > p {
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 120px;
+        }
+        .cta > p > span {
+            color: #ff773c;
+        }
+        .cta > button {
+            width: 300px;
+            height: 60px;
+            font-size: 16px;
+            background-color: #ff773c;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-weight: 700;
+            margin-right: 120px;
+            cursor: pointer;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gnb"> 
+        <img src="https://pbs.twimg.com/profile_images/1834246083394109441/RDpaB4Nr_400x400.jpg">
+        <span>로그인</span>
+    </div>
+    
+    <hr/>
+
+    <div class="main">
+        <h3> 모두가 원해, 사랑 돈 명예 <br/> But only want you, baby, baby, baby</h3>
+        <h1> 너의 사랑 하나, 그거면 돼 </h1>
+        <img src="https://pbs.twimg.com/profile_banners/956888370/1726412535/600x200">
+    </div>
+
+    <hr/>
+
+    <div class="teaser">
+        <h2>TRACK LIST</h2>
+
+        <img src=https://pbs.twimg.com/media/GY4NUNTaEAAfRmy?format=jpg&name=4096x4096>
+        <br/>
+        <img src=https://pbs.twimg.com/media/GYKyuHiakAA53QX?format=jpg&name=4096x4096>
+        <br/>
+        <img src="https://pbs.twimg.com/media/GYKy2JKaYAAmYtW?format=jpg&name=4096x4096">
+    </div>
+
+
+
+    <div class="cta">
+        <p><span>세븐틴 미니 12집 전격 발매!</span><br/> 지금 들어보러 가자굿!</p>
+        <button type="button" onclick="location.href='https://youtu.be/5NPe8_gDSr4?si=iVaK5UNpRW0GNPs_'">뮤직비디오 보러가기</button>
+    </div>
+
+</body>
+</html>
